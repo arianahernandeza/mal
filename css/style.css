@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    color: black;
+}
+
+.navbar {
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    background-color: rgb(218, 86, 20);
+}
+
+#myCarousel {
+    margin-bottom: 5%;
+}
+
+h1, h2, h3, .modal-footer {
+    font-family: "Roboto Slab", serif;
+}
+
+h1,h2, .modal-footer {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 3%;
+    color: rgb(218, 86, 20);
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+}
+
+#legacy {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#legacy p {
+    margin-bottom: 3%;
+}
+
+#botonModal {
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+#destacado {
+    background-color: beige;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#detalles {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#suscribe {
+    background-color: rgb(218, 86, 20);
+    color: white;
+}
+
+footer {
+    height: 100px;
+    padding-top: 40px;
+    background-color: rgb(218, 86, 20);
+}
+
+@media (max-width: 768px) {
+    h1 {font-size: 7vw;}
+
+    p {font-size: 1em;}
+}
